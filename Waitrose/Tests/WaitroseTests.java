@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 
 public class WaitroseTests extends AbstractBaseTests {
 
-
+//I have changed the phone number on row 24
 
     @Test
     public void signUpForAnAccount() throws InterruptedException {
@@ -21,7 +21,7 @@ public class WaitroseTests extends AbstractBaseTests {
         registerAccountPage.selectTitle()
                 .inputFirstName("Gemma")
                 .inputLastName("Jones")
-                .inputContactNumber("07729745852")
+                .inputContactNumber("07755667876")
                 .findAddress()
                 .continueToCompleteRegistration("Continue")
                 .confirmAccountAccepted("4 Murray Street");
